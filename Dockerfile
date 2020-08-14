@@ -28,7 +28,7 @@ COPY docker-entrypoint.sh $GLASSFISH_HOME/
 ENTRYPOINT ["/usr/local/glassfish3/docker-entrypoint.sh"]
 
 # Start the GlassFish domain
-CMD ["asadmin", "start-domain", "--verbose"]
+CMD ["asadmin", "start-domain1", "--verbose"]
 
 LABEL maintainer="King Chung Huang <kchuang@ucalgary.ca>" \
       org.label-schema.schema-version="1.0" \
